@@ -3,7 +3,7 @@
 NTRU_HOME=$(dirname $0)/..
 
 java \
-    -jar "${NTRU_HOME}"/dist/NTRUEncrypt-java.jar \
+    -jar "${NTRU_HOME}"/dist/ntru.jar \
     $@
 
 exit $?
